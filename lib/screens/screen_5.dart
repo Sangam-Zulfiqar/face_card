@@ -66,7 +66,7 @@ class Screen_5 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    width: 10,
+                    width: 30,
                   ),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -111,7 +111,10 @@ class Screen_5 extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
-            Text('500'),
+            Text(
+              '500',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
             SizedBox(
               height: 30,
             ),
